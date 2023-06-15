@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: Robecha;
+  src: url('./assets/fonts/Robecha-Daniera-Regular.ttf')
+}
+
+:root {
+  font-family: Robecha;
+  line-height: 1.5;
+  font-weight: 400;
+
+  background: black;
+  color: white;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+

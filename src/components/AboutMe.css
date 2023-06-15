@@ -1,0 +1,8 @@
+@font-face {
+  font-family: Blanka;
+  src: url("../assets/fonts/Blanka.otf")
+}
+
+:root {
+    font-family: Blanka;
+}
