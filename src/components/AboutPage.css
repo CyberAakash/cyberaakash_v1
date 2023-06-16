@@ -1,0 +1,10 @@
+.bg-image {
+    background: url(/moon.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.mesh1 {
+    border-radius: 69% 31% 43% 57% / 58% 56% 44% 42% ;
+}

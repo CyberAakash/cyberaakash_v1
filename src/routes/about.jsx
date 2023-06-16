@@ -10,12 +10,17 @@ import Footer from "../components/Footer";
 // import FAQs from "../components/FAQs";
 import GoToTop from "../components/GoToTop";
 import AboutPage from "../components/AboutPage";
+import Profile from "../components/Profile";
+
+
+
 
 function about() {
   return (
     <>
       <div className="relative flex flex-col items-center justify-center overflow-x-hidden m-0 p-0">
         <Navbar />
+
         {/* <Bar /> */}
         <GoToTop />
         <main className="w-screen relative z-10 flex flex-col gap-0 items-center justify-center min-h-screen">
@@ -23,7 +28,9 @@ function about() {
           <AboutMe />
           <FAQs /> */}
           <AboutPage />
+          <Profile />
         </main>
+        <div className="mt-14"></div>
         <Footer />
       </div>
     </>
