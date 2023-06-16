@@ -1,4 +1,5 @@
-import "./Footer.css"
+import "./Footer.css";
+
 
 function Footer() {
   return (
@@ -7,6 +8,7 @@ function Footer() {
         className="flex flex-col gap-8 items-center justify-center text-center relative z-30 mx-auto p-10 px-20 
       bg-white text-black w-screen h-fit overflow-x-hidden font-serif"
       >
+        
         <footer className="footer justify-center sm:justify-evenly">
           <div className="w-full flex-col text-center flex items-center sm:items-start justify-center">
             <span className="footer-title">Services</span>

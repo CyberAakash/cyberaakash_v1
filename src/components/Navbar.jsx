@@ -1,16 +1,17 @@
 import "./Navbar.css"
+// import { Link } from "react-router-dom";
 
 function Navbar() {
   return (
     <>
       <nav
-        className="fixed top-0 pt-10 left-[50%] translate-x-[-50%] z-40 p-2 h-24 w-screen bg-transparent
-                    flex items-center justify-center gap-3 md:gap-6 font-extrabold text-base font-Blanka"
+        className="fixed top-0 pt-5 left-[50%] translate-x-[-50%] z-40 p-2 h-24 w-screen bg-transparent backdrop-invert
+                    flex items-center justify-center gap-3 md:gap-6 font-extrabold text-green-500 font-Blanka"
       >
-        <a href="" className="backdrop-filter backdrop-invert bg-transparent bg-clip-text text-transparent">
+        <a href="/" className="">
           Home
         </a>
-        <a href="" className="backdrop-filter backdrop-invert bg-transparent bg-clip-text text-transparent">
+        <a href="/demo" className="">
           About
         </a>
         <a href="" className="">
@@ -27,10 +28,10 @@ function Navbar() {
             />
           </svg>
         </a>
-        <a href="" className="backdrop-filter backdrop-invert bg-transparent bg-clip-text text-transparent">
+        <a href="" className="">
           Project
         </a>
-        <a href="" className="backdrop-filter backdrop-invert bg-transparent bg-clip-text text-transparent">
+        <a href="" className="">
           Social
         </a>
       </nav>
