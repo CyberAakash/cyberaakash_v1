@@ -1,5 +1,5 @@
 import "./Navbar.css"
-// import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 function Navbar() {
   return (
@@ -8,12 +8,12 @@ function Navbar() {
         className="fixed top-0 pt-5 left-[50%] translate-x-[-50%] z-40 p-2 h-24 w-screen bg-transparent backdrop-invert
                     flex items-center justify-center gap-3 md:gap-6 font-extrabold text-green-500 font-Blanka"
       >
-        <a href="/" className="">
+        <Link to={`/`} className="">
           Home
-        </a>
-        <a href="/demo" className="">
+        </Link>
+        <Link to={`/about`} className="">
           About
-        </a>
+        </Link>
         <a href="" className="">
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -31,7 +31,7 @@ function Navbar() {
         <a href="" className="">
           Project
         </a>
-        <a href="" className="">
+        <a href="wrong" className="">
           Social
         </a>
       </nav>
