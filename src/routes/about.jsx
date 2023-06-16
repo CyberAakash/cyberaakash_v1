@@ -23,7 +23,7 @@ function about() {
 
         {/* <Bar /> */}
         <GoToTop />
-        <main className="w-screen relative z-10 flex flex-col gap-0 items-center justify-center min-h-screen">
+        <main className="w-screen mt-0 pt-0 relative z-10 flex flex-col gap-0 items-center justify-center min-h-fit">
           {/* <Banner />
           <AboutMe />
           <FAQs /> */}
