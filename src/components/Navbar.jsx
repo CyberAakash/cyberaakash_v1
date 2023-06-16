@@ -5,7 +5,7 @@ function Navbar() {
   return (
     <>
       <nav
-        className="fixed top-0 pt-5 left-[50%] translate-x-[-50%] z-40 p-2 h-24 w-screen bg-transparent bg-clip-text text-white mix-blend-difference
+        className="scale-75 sm:scale-100 fixed top-0 pt-5 left-[50%] translate-x-[-50%] z-40 p-2 h-24 w-screen bg-transparent bg-clip-text text-white mix-blend-difference
                     flex items-center justify-center gap-3 md:gap-6 font-extrabold font-Blanka"
       >
         <Link to={`/`} className="min-w-[80px]">
