@@ -1,5 +1,5 @@
 import "./Footer.css";
-
+import { HeartIcon } from "@heroicons/react/24/solid";
 
 function Footer() {
   return (
@@ -8,7 +8,6 @@ function Footer() {
         className="flex flex-col gap-8 items-center justify-center text-center relative z-30 mx-auto p-10 px-20 
       bg-white text-black w-screen h-fit overflow-x-hidden font-serif"
       >
-        
         <footer className="footer justify-center sm:justify-evenly">
           <div className="w-full flex-col text-center flex items-center sm:items-start justify-center">
             <span className="footer-title">Services</span>
@@ -105,6 +104,14 @@ function Footer() {
             </div>
           </div>
         </footer>
+        <div className="flex absolute z-30 bottom-0 left-0 gap-0  w-screen items-center justify-center p-2 bg-black text-white font-Blanka text-base">
+          <h1 className=" scale-75">Made with </h1>
+          <HeartIcon className="h-6 w-6 text-red-500 scale-75" />
+          <h1 className=" scale-75"> by</h1>
+          <p className="text-transparent bg-gradient-to-r from-green-500 to-green-300 bg-clip-text scale-75">
+            CyberAakash
+          </p>
+        </div>
       </div>
     </>
   );
