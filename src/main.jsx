@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
 // import Root from "./routes/root";
 import About from "./routes/about";
-import ErrorPage from "./ErrorPage";
+import ErrorPage from "./404";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import './index.css'
 
