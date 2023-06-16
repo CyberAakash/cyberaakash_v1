@@ -37,26 +37,33 @@ function Banner() {
         // removeClippedSubviews={false}
         // loadMinimal
         // loadMinimalSize={3}
-        className="mySwiper mx-10 px-10 pt-14 grid place-content-center place-items-center max-w-[800px] h-full overflow-hidden"
+        className="mySwiper mx-10 px-10 pt-14 grid place-content-center place-items-center max-w-[800px] h-fit sm:h-full overflow-hidden"
       >
         <SwiperSlide className="h-screen text-center grid place-content-center place-items-center text-white bg-transparent">
           <img
             src="/images/FBW1.png"
-            className="w-[-87%] min-h-full object-contain"
+            className="w-[82%] sm:w-full min-h-full object-contain"
             alt=""
           />
         </SwiperSlide>
         <SwiperSlide className="h-screen text-center grid place-content-center place-items-center text-white bg-transparent">
           <img
             src="/images/FBW2.png"
-            className="w-full min-h-full object-contain mt-[-9%] sm:mt-[-6%]"
+            className="w-[82%] sm:w-full min-h-full object-contain mt-[-9%] sm:mt-[-6%] overflow-hidden"
             alt=""
           />
         </SwiperSlide>
         <SwiperSlide className="h-screen text-center grid place-content-center place-items-center text-white bg-transparent">
           <img
             src="/images/FBW3.png"
-            className="w-full min-h-full object-contain mt-[-9%] sm:mt-[-6%]"
+            className="w-[82%] sm:w-full min-h-full object-contain mt-[-9%] sm:mt-[-6%]"
+            alt=""
+          />
+        </SwiperSlide>
+        <SwiperSlide className="h-screen text-center grid place-content-center place-items-center text-white bg-transparent">
+          <img
+            src="/images/FBW4.png"
+            className="w-[82%] sm:w-full min-h-full object-contain mt-[-9%] sm:mt-[-6%]"
             alt=""
           />
         </SwiperSlide>

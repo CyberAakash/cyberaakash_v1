@@ -5,13 +5,13 @@ function Navbar() {
   return (
     <>
       <nav
-        className="fixed top-0 pt-5 left-[50%] translate-x-[-50%] z-40 p-2 h-24 w-screen bg-transparent backdrop-invert
-                    flex items-center justify-center gap-3 md:gap-6 font-extrabold text-green-500 font-Blanka"
+        className="fixed top-0 pt-5 left-[50%] translate-x-[-50%] z-40 p-2 h-24 w-screen bg-transparent bg-clip-text text-white mix-blend-difference
+                    flex items-center justify-center gap-3 md:gap-6 font-extrabold font-Blanka"
       >
-        <Link to={`/`} className="">
+        <Link to={`/`} className="min-w-[80px]">
           Home
         </Link>
-        <Link to={`/about`} className="">
+        <Link to={`/about`} className="min-w-[80px]">
           About
         </Link>
         <a href="" className="">
@@ -28,10 +28,10 @@ function Navbar() {
             />
           </svg>
         </a>
-        <a href="" className="">
+        <a href="" className="min-w-[80px]">
           Project
         </a>
-        <a href="wrong" className="">
+        <a href="wrong" className="min-w-[80px]">
           Social
         </a>
       </nav>
