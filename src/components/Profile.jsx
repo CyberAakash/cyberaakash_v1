@@ -105,73 +105,86 @@ function Profile() {
             Ut dolore magna excepteur mollit irure deserunt nisi pariatur id.
           </p>
         </div>
+        <div className="flex min-w-full flex-col items-center justify-center p-10 text-center gap-4 border-x-2 border-b-2 border-white border-dashed">
+          <h1 className="text-center font-Blanka text-4xl ">Proof of worth</h1>
+          <p className="font-sans text-lg opacity-90">
+            Mollit minim qui exercitation elit amet culpa non fugiat deserunt
+            incididunt deserunt voluptate cillum. Aute dolor nulla eiusmod duis
+            irure laborum proident laborum. Dolore eu labore sunt in sit nisi
+            reprehenderit .
+          </p>
+          <div className="mt-10 w-full grid place-content-center place-items-center grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-20">
+            <div className=" w-[150px] h-[150px] relative">
+              <div className="z-8 w-[60%] h-[80%] card-border mesh-card opacity-80 blur-3xl"></div>
+              <a
+                href="https://www.credly.com/badges/14b5ed7f-e85a-4dd0-a7f1-2f781327535e/linked_in_profile"
+                target="_blank"
+                rel="noreferrer"
+                className="cursor-pointer z-10 absolute text-white font-semibold font-mono text-xs text-center top-[50%] translate-y-[-50%] left-[50%] translate-x-[-50%]"
+              >
+                RHCSA®️
+              </a>
+            </div>
+            <div className=" w-[150px] h-[150px] relative">
+              <div className="z-8 w-[60%] h-[50%] card-border mesh-card opacity-80 blur-3xl"></div>
+              <a
+                href="https://github.com/CyberAakash/My-Certificates/blob/main/Nptel_ds_cset.jpg"
+                target="_blank"
+                rel="noreferrer"
+                className="cursor-pointer z-10 absolute text-white font-semibold font-mono text-xs text-center top-[50%] translate-y-[-50%] left-[50%] translate-x-[-50%]"
+              >
+                Data Structures and Algorithms
+              </a>
+            </div>
+            <div className=" w-[150px] h-[150px] relative">
+              <div className="z-8 w-[30%] h-[70%] card-border mesh-card opacity-80 blur-3xl"></div>
+              <a
+                href="https://github.com/CyberAakash/My-Certificates/blob/main/Nptel_c%2B%2B_cert.jpg"
+                target="_blank"
+                rel="noreferrer"
+                className="cursor-pointer z-10 absolute text-white font-semibold font-mono text-xs text-center top-[50%] translate-y-[-50%] left-[50%] translate-x-[-50%]"
+              >
+                C / C++
+              </a>
+            </div>
+            <div className=" w-[150px] h-[150px] relative">
+              <div className="z-8 w-[30%] h-[90%] card-border mesh-card opacity-80 blur-3xl"></div>
+              <a
+                href=""
+                target="_blank"
+                rel="noreferrer"
+                className="cursor-pointer z-10 absolute text-white font-semibold font-mono text-xs text-center top-[50%] translate-y-[-50%] left-[50%] translate-x-[-50%]"
+              >
+                Blockchain
+              </a>
+            </div>
+            <div className=" w-[150px] h-[150px] relative">
+              <div className="z-8 w-[60%] h-[80%] card-border mesh-card opacity-80 blur-3xl"></div>
+              <a
+                href=""
+                target="_blank"
+                rel="noreferrer"
+                className="cursor-pointer z-10 absolute text-white font-semibold font-mono text-xs text-center top-[50%] translate-y-[-50%] left-[50%] translate-x-[-50%]"
+              >
+                UI / UX
+              </a>
+            </div>
+            <div className=" w-[150px] h-[150px] relative">
+              <div className="z-8 w-[50%] h-[40%] card-border mesh-card opacity-80 blur-3xl"></div>
+              <a
+                href=""
+                target="_blank"
+                rel="noreferrer"
+                className="cursor-pointer z-10 absolute text-white font-semibold font-mono text-xs text-center top-[50%] translate-y-[-50%] left-[50%] translate-x-[-50%]"
+              >
+                Cyber Security
+              </a>
+            </div>
+          </div>
+        </div>
       </div>
     </>
   );
 }
 
 export default Profile;
-
-//Firebase
-{
-  /* <svg
-  xmlns="http://www.w3.org/2000/svg"
-  x="0px"
-  y="0px"
-  width="96"
-  height="96"
-  viewBox="0,0,256,256"
-  style={{ fill: "black" }}
->
-  <g
-    fillOpacity="0"
-    fill="#fbfbfb"
-    fillRule="nonzero"
-    stroke="none"
-    strokeWidth="1"
-    strokeLinecap="butt"
-    strokeLinejoin="miter"
-    strokeMiterlimit="10"
-    strokeDasharray=""
-    strokeDashoffset="0"
-    fontFamily="none"
-    fontWeight="none"
-    fontSize="none"
-    textAnchor="none"
-    style={{ mixBlendMode: "normal" }}
-  >
-    <path d="M0,256v-256h256v256z" id="bgRectangle"></path>
-  </g>
-  <g
-    fill="none"
-    fillRule="nonzero"
-    stroke="none"
-    strokeWidth="1"
-    strokeLinecap="butt"
-    strokeLinejoin="miter"
-    strokeMiterlimit="10"
-    strokeDasharray=""
-    strokeDashoffset="0"
-    fontFamily="none"
-    fontWeight="none"
-    fontSize="none"
-    textAnchor="none"
-    style={{ mixBlendMode: "normal" }}
-  >
-    <g transform="scale(5.33333,5.33333)">
-      <path
-        d="M25.01,8.565c-0.386,-0.753 -1.466,-0.755 -1.848,0l-2.347,4.426l-5.411,-10.444c-0.471,-0.874 -1.798,-0.653 -1.952,0.325l-5.449,35.125l22.247,-19.247z"
-        fill="#ffa000"
-      ></path>
-      <path
-        d="M25.795,22.604l-4.98,-9.612l-12.812,25.005z"
-        fill="#f57f17"
-      ></path>
-      <path
-        d="M35.859,11.838c-0.13,-0.802 -1.115,-1.12 -1.69,-0.544l-26.166,26.708l14.479,7.614c0.917,0.512 2.034,0.512 2.951,0.001l14.567,-7.612z"
-        fill="#ffca28"
-      ></path>
-    </g>
-  </g>
-</svg> */
-}

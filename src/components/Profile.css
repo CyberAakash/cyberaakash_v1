@@ -1,0 +1,17 @@
+.card-border {
+  border-radius: 39% 61% 72% 28% / 36% 34% 66% 64%;
+}
+
+.mesh-card {
+  background-color: rgb(229, 229, 229);
+  background-image: radial-gradient(
+      at 65% 3%,
+      rgb(212, 212, 216) 0,
+      transparent 40%
+    ),
+    radial-gradient(at 25% 57%, rgb(59, 130, 246) 0, transparent 59%),
+    radial-gradient(at 69% 52%, rgb(224, 242, 254) 0, transparent 20%),
+    radial-gradient(at 98% 36%, rgb(56, 189, 248) 0, transparent 48%),
+    radial-gradient(at 97% 29%, rgb(243, 232, 255) 0, transparent 88%),
+    radial-gradient(at 43% 39%, rgb(163, 163, 163) 0, transparent 30%);
+}
