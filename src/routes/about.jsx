@@ -11,6 +11,7 @@ import Footer from "../components/Footer";
 import GoToTop from "../components/GoToTop";
 import AboutPage from "../components/AboutPage";
 import Profile from "../components/Profile";
+import Marque from "../components/Marque";
 
 
 
@@ -31,6 +32,7 @@ function about() {
           <Profile />
         </main>
         <div className="mt-14"></div>
+        <Marque />
         <Footer />
       </div>
     </>

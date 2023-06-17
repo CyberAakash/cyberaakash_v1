@@ -7,6 +7,28 @@
   src: url('./assets/fonts/Robecha-Daniera-Regular.ttf')
 }
 
+@layer base {
+   /* Scroll */
+  .scroll-hidden::-webkit-scrollbar{
+    display: none;
+  }
+  .scroll-style::-webkit-scrollbar{
+    scroll-behavior: smooth;
+    scrollbar-width: thin;
+    scrollbar-color: rgb(66, 245, 141) rgb(66, 245, 141); 
+  }
+  .scroll-style::-webkit-scrollbar{
+    @apply w-2;
+  }
+  .scroll-style::-webkit-scrollbar-track {
+    @apply bg-slate-700;
+  }
+  .scroll-style::-webkit-scrollbar-thumb {
+    @apply rounded-full bg-gradient-to-tr from-blue-500 to-green-500 via-teal-500;
+  }
+   
+}
+
 :root {
   font-family: Robecha;
   line-height: 1.5;

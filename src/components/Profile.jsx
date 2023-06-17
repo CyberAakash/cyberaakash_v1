@@ -9,6 +9,7 @@ import "swiper/css";
 
 // import required modules
 import { Autoplay } from "swiper";
+// import Marque from "./Marque";
 
 function Profile() {
   return (
@@ -308,6 +309,9 @@ function Profile() {
               />
             </SwiperSlide>
           </Swiper>
+        </div>
+        <div className="flex items-center justify-center h-fit w-screen">
+          {/* <Marque /> */}
         </div>
       </div>
     </>
