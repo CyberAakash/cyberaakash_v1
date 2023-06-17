@@ -8,13 +8,13 @@ function Navbar() {
         className="scale-75 sm:scale-100 fixed top-0 pt-5 left-[50%] translate-x-[-50%] z-40 p-2 h-24 w-screen bg-transparent bg-clip-text text-white mix-blend-difference
                     flex items-center justify-center gap-3 md:gap-6 font-extrabold font-Blanka"
       >
-        <Link to={`/`} className="min-w-[80px]">
+        <Link to={`/`} className="min-w-[80px] text-center">
           Home
         </Link>
-        <Link to={`/about`} className="min-w-[80px]">
+        <Link to={`/about`} className="min-w-[80px] text-center">
           About
         </Link>
-        <a href="" className="">
+        <Link to={`/`} className="">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 24 24"
@@ -27,13 +27,13 @@ function Navbar() {
               clipRule="evenodd"
             />
           </svg>
-        </a>
-        <a href="" className="min-w-[80px]">
+        </Link>
+        <Link to={`/project`} className="min-w-[80px] text-center">
           Project
-        </a>
-        <a href="wrong" className="min-w-[80px]">
+        </Link>
+        <Link to={`/social`} className="min-w-[80px] text-center">
           Social
-        </a>
+        </Link>
       </nav>
     </>
   );

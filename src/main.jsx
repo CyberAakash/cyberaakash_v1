@@ -3,6 +3,8 @@ import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
 // import Root from "./routes/root";
 import About from "./routes/about";
+import Project from "./routes/project";
+
 import ErrorPage from "./404";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import './index.css'
@@ -22,6 +24,10 @@ const router = createBrowserRouter([
   {
     path: "about",
     element: <About />,
+  },
+  {
+    path: "project",
+    element: <Project />,
   },
 ]);
 

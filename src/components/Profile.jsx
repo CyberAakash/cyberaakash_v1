@@ -5,7 +5,7 @@ function Profile() {
     <>
       <div
         className="flex flex-col items-center justify-center relative z-10
-                      h-fit w-screen px-20"
+                      h-fit w-screen px-2 sm:px-20"
       >
         <div className="flex flex-col items-center justify-center p-10 text-center gap-4 border-2 border-white border-dashed">
           <h1 className="font-Blanka text-4xl">Who Am I ?</h1>
