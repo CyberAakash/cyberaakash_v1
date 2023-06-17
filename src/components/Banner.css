@@ -5,6 +5,12 @@
 
 .swiper-slide {
   width: 100% !important;
+  height: fit-content !important;
+}
+
+.swiper {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
 }
 
 
