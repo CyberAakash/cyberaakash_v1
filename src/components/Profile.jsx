@@ -194,8 +194,8 @@ function Profile() {
 
           <Swiper
             autoplay={{
-              delay: 4000,
-              disableOnInteraction: false,
+              delay: 1000,
+              disableOnInteraction: true,
             }}
             // navigation={true}
             grabCursor={true}
@@ -210,29 +210,99 @@ function Profile() {
           >
             <SwiperSlide className="h-screen text-center grid place-content-center place-items-center text-white bg-transparent">
               <img
-                src="/images/FBW1.png"
-                className="w-[82%] sm:w-full min-h-full object-contain"
+                src="/cert/c++CERT.png"
+                className="w-full min-h-full object-contain"
                 alt=""
               />
             </SwiperSlide>
             <SwiperSlide className="h-screen text-center grid place-content-center place-items-center text-white bg-transparent">
               <img
-                src="/images/FBW2.png"
-                className="w-[82%] sm:w-full min-h-full object-contain mt-[-9%] sm:mt-[-6%] overflow-hidden"
+                src="/cert/acmCERT.png"
+                className="w-full min-h-full object-contain"
                 alt=""
               />
             </SwiperSlide>
             <SwiperSlide className="h-screen text-center grid place-content-center place-items-center text-white bg-transparent">
               <img
-                src="/images/FBW3.png"
-                className="w-[82%] sm:w-full min-h-full object-contain mt-[-9%] sm:mt-[-6%]"
+                src="/cert/dsCERT.png"
+                className="w-full min-h-full object-contain "
                 alt=""
               />
             </SwiperSlide>
             <SwiperSlide className="h-screen text-center grid place-content-center place-items-center text-white bg-transparent">
               <img
-                src="/images/FBW4.png"
-                className="w-[82%] sm:w-full min-h-full object-contain mt-[-9%] sm:mt-[-6%]"
+                src="/cert/c++CERT.png"
+                className="w-full min-h-full object-contain"
+                alt=""
+              />
+            </SwiperSlide>
+            <SwiperSlide className="h-screen text-center grid place-content-center place-items-center text-white bg-transparent">
+              <img
+                src="/cert/osCERT.png"
+                className="w-full min-h-full object-contain"
+                alt=""
+              />
+            </SwiperSlide>
+            <SwiperSlide className="h-screen text-center grid place-content-center place-items-center text-white bg-transparent">
+              <img
+                src="/cert/ds1CERT.png"
+                className="w-full min-h-full object-contain"
+                alt=""
+              />
+            </SwiperSlide>
+            <SwiperSlide className="h-screen text-center grid place-content-center place-items-center text-white bg-transparent">
+              <img
+                src="/cert/ds2CERT.png"
+                className="w-full min-h-full object-contain"
+                alt=""
+              />
+            </SwiperSlide>
+            <SwiperSlide className="h-screen text-center grid place-content-center place-items-center text-white bg-transparent">
+              <img
+                src="/cert/dbms1CERT.png"
+                className="w-full min-h-full object-contain"
+                alt=""
+              />
+            </SwiperSlide>
+            <SwiperSlide className="h-screen text-center grid place-content-center place-items-center text-white bg-transparent">
+              <img
+                src="/cert/dbms2CERT.png"
+                className="w-full min-h-full object-contain"
+                alt=""
+              />
+            </SwiperSlide>
+            <SwiperSlide className="h-screen text-center grid place-content-center place-items-center text-white bg-transparent">
+              <img
+                src="/cert/nosqlCERT.png"
+                className="w-full min-h-full object-contain"
+                alt=""
+              />
+            </SwiperSlide>
+            <SwiperSlide className="h-screen text-center grid place-content-center place-items-center text-white bg-transparent">
+              <img
+                src="/cert/python1CERT.png"
+                className="w-full min-h-full object-contain"
+                alt=""
+              />
+            </SwiperSlide>
+            <SwiperSlide className="h-screen text-center grid place-content-center place-items-center text-white bg-transparent">
+              <img
+                src="/cert/python2CERT.png"
+                className="w-full min-h-full object-contain"
+                alt=""
+              />
+            </SwiperSlide>
+            <SwiperSlide className="h-screen text-center grid place-content-center place-items-center text-white bg-transparent">
+              <img
+                src="/cert/agileCERT.png"
+                className="w-full min-h-full object-contain"
+                alt=""
+              />
+            </SwiperSlide>
+            <SwiperSlide className="h-screen text-center grid place-content-center place-items-center text-white bg-transparent">
+              <img
+                src="/cert/oopsCERT.png"
+                className="w-full min-h-full object-contain"
                 alt=""
               />
             </SwiperSlide>
