@@ -195,7 +195,7 @@ function Profile() {
           <Swiper
             autoplay={{
               delay: 1000,
-              disableOnInteraction: true,
+              disableOnInteraction: false,
             }}
             // navigation={true}
             grabCursor={true}
@@ -206,7 +206,8 @@ function Profile() {
             // removeClippedSubviews={false}
             // loadMinimal
             // loadMinimalSize={3}
-            className="mySwiper mx-10 px-10 pt-14 grid place-content-center place-items-center max-w-[800px] h-fit sm:h-full overflow-hidden"
+            className="mySwiper mx-10 px-10 pt-14 grid place-content-center place-items-center 
+            max-w-[800px] h-fit sm:h-full overflow-hidden transition-opacity duration-150 ease-in-out"
           >
             <SwiperSlide className="h-screen text-center grid place-content-center place-items-center text-white bg-transparent">
               <img

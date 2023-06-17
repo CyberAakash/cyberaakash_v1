@@ -25,7 +25,7 @@ function Banner() {
     <>
       <Swiper
         autoplay={{
-          delay: 4000,
+          delay: 3000,
           disableOnInteraction: false,
         }}
         navigation={true}
@@ -55,14 +55,14 @@ function Banner() {
         </SwiperSlide>
         <SwiperSlide className="h-screen text-center grid place-content-center place-items-center text-white bg-transparent">
           <img
-            src="/images/FBW3.png"
+            src="/images/FBW6.png"
             className="w-full min-h-full object-contain "
             alt=""
           />
         </SwiperSlide>
         <SwiperSlide className="h-screen text-center grid place-content-center place-items-center text-white bg-transparent">
           <img
-            src="/images/FBW4.png"
+            src="/images/FBW7.png"
             className="w-full min-h-full object-contain "
             alt=""
           />
