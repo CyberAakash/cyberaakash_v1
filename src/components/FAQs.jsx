@@ -1,6 +1,11 @@
 import { ArrowDownTrayIcon } from "@heroicons/react/24/solid";
 
 function FAQs() {
+  const handleDownload = () => {
+    // Replace 'path_to_your_pdf.pdf' with the actual path to your PDF file
+    const fileUrl = "resume.pdf";
+    window.open(fileUrl, "_blank");
+  };
   return (
     <>
       <div
@@ -10,7 +15,8 @@ function FAQs() {
         <div className="mb-36">
           <a
             className="bg-green-500 text-white hover:text-green-500 hover:bg-white text-center font-robecha
-    flex items-center justify-center gap-3 h-12 min-w-10 p-4 rounded-md transition-all duration-200 delay-75"
+    flex items-center cursor-pointer justify-center gap-3 h-12 min-w-10 p-4 rounded-md transition-all duration-200 delay-75"
+            onClick={handleDownload}
           >
             <p className="font-semibold ">Download Resume</p>
             <ArrowDownTrayIcon className="h-4 w-4" />

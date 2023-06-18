@@ -9,6 +9,8 @@ import Footer from './components/Footer';
 import AboutMe from './components/AboutMe';
 import FAQs from './components/FAQs';
 import GoToTop from './components/GoToTop';
+import Marque from './components/Marque';
+
 
 // import HomePage from "./components/AboutPage";
 
@@ -27,6 +29,7 @@ function App() {
           <AboutMe />
           <FAQs />
         </main>
+        <Marque />
         <Footer />
       </div>
     </>

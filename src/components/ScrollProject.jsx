@@ -1,20 +1,37 @@
-import Marquee from "react-fast-marquee";
+import { Splide, SplideSlide } from "@splidejs/react-splide";
+import "@splidejs/splide/dist/css/splide.min.css";
 import "./Marque.css";
 
 function ScrollProject() {
   return (
     <>
-      <div className="flex h-fit w-screen items-center justify-center m-0 p-0">
-        <Marquee
-          pauseOnHover="true"
-          gradient="true"
-          gradientColor={[4, 4, 4]}
-          gradientWidth={100}
-          speed="100"
-          className="flex gap-5"
+      <div className="relative z-10 pt-24  flex  h-screen w-screen items-center justify-center m-0 p-0">
+        <Splide
+          hasTrack="false"
+          options={{
+            loop: true,
+            // width: 800,
+            // gap: "1rem",
+          }}
+          className="w-full h-fit flex items-center justify-center"
         >
-          
-        </Marquee>
+          <SplideSlide className="flex items-center justify-center">
+            <div className="mockup-phone">
+              <div className="camera"></div>
+              <div className="display">
+                <div className="artboard artboard-demo phone-1">
+                  <img src="/images/FBW1.png" alt="Image 1" />
+                </div>
+              </div>
+            </div>
+          </SplideSlide>
+          <SplideSlide className="flex items-center justify-center">
+            <img src="/images/FBW2.png" alt="Image 2" />
+          </SplideSlide>
+          <SplideSlide className="flex items-center justify-center">
+            <img src="/images/FBW3.png" alt="Image 3" />
+          </SplideSlide>
+        </Splide>
       </div>
     </>
   );

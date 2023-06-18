@@ -9,6 +9,7 @@ import Footer from "../components/Footer";
 // import AboutMe from "../components/AboutMe";
 // import FAQs from "../components/FAQs";
 import GoToTop from "../components/GoToTop";
+import ScrollProject from "../components/ScrollProject";
 
 
 function project() {
@@ -23,6 +24,7 @@ function project() {
           {/* <Banner />
           <AboutMe />
           <FAQs /> */}
+          <ScrollProject />
         </main>
         <div className="mt-14"></div>
         <Footer />
