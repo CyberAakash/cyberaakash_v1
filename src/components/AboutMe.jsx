@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import "./AboutMe.css";
 
 function AboutMe() {
@@ -19,12 +20,12 @@ function AboutMe() {
               </span>
             </h1>
             <p className="text-white/90 font-robecha text-xl text-center md:text-start">
-              Laborum id excepteur sunt labore nulla Lorem dolor voluptate
-              veniam ea sunt veniam. Aliqua ex nulla ex sunt in exercitation
-              officia non. Duis commodo elit aute sit consectetur eu. Laborum id
-              excepteur sunt labore nulla Lorem dolor voluptate veniam ea sunt
-              veniam. Aliqua ex nulla ex sunt in exercitation officia non cillum
-              dolor voluptate consectetur
+              I am a highly motivated and diligent student currently pursuing a
+              Bachelor's degree in Computer Science and Engineering at Mepco
+              Schlenk Engineering College. With a passion for learning and a
+              strong work ethic, I developed an impressive
+              repertoire of skills in various programming languages and
+              frameworks.
             </p>
           </div>
         </div>

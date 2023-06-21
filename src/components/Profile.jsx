@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import "./Profile.css";
 
 // Import Swiper React components
@@ -21,10 +22,21 @@ function Profile() {
         <div className="flex flex-col items-center justify-center p-10 text-center gap-4 border-2 border-white border-dashed">
           <h1 className="font-Blanka text-4xl">Who Am I ?</h1>
           <p className="font-sans text-lg opacity-90">
-            Veniam reprehenderit labore adipisicing qui. Id cupidatat in veniam
-            magna ullamco excepteur. Non ipsum exercitation ea non. Deserunt et
-            minim pariatur tempor eiusmod reprehenderit ea ea cupidatat aute
-            dolore quis.
+            I am a self-motivated and proactive student currently pursuing a
+            Bachelor's degree in Computer Science and Engineering at Mepco
+            Schlenk Engineering College. I have a strong passion for learning
+            and consider yourself a smart worker. I have acquired proficiency in
+            various programming languages such as C, C++, Python, Java, and
+            JavaScript, and have experience working with frameworks including
+            React, NextJS, NodeJS, Svelte, ViteJS, tailwindCSS, and Bootstrap.
+          </p>
+          <p className="font-sans text-lg opacity-90">
+            In addition to my front-end development skills, I have also worked
+            with back-end technologies like Firebase, MongoDB, MySQL, and
+            PostgreSQL, making me a full stack engineer. My experience extends
+            beyond coding as i possess knowledge of 3D modeling and UI/UX
+            design, enabling me to create visually appealing interfaces with a
+            focus on user experience.
           </p>
         </div>
         <div className="flex flex-col items-center justify-center p-10 text-center gap-4 border-x-2 border-b-2 border-white border-dashed">
@@ -210,6 +222,13 @@ function Profile() {
             className="mySwiper mx-10 px-10 pt-14 grid place-content-center place-items-center 
             max-w-[800px] h-fit sm:h-full overflow-hidden transition-opacity duration-150 ease-in-out"
           >
+            <SwiperSlide className="h-screen text-center grid place-content-center place-items-center text-white bg-transparent">
+              <img
+                src="/cert/rhcsaCert.png"
+                className="w-full min-h-full object-contain"
+                alt=""
+              />
+            </SwiperSlide>
             <SwiperSlide className="h-screen text-center grid place-content-center place-items-center text-white bg-transparent">
               <img
                 src="/cert/c++CERT.png"

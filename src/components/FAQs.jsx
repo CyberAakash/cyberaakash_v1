@@ -26,10 +26,21 @@ function FAQs() {
           <div className="collapse collapse-plus bg-base-200 rounded-none">
             <input type="radio" name="my-accordion-3" checked="checked" />
             <div className="collapse-title  text-lg md:text-xl font-bold">
-              How to contact you ?
+              What technology stack you use ?
             </div>
             <div className="collapse-content">
-              <p>hello</p>
+              <p>
+                Front-end Development: HTML, CSS, JavaScript, React, NextJS,
+                Svelte, and ViteJS for creating dynamic and responsive user
+                interfaces. TailwindCSS and Bootstrap for efficient and
+                customizable styling. Back-end Development: Node.js, Firebase
+                ,MongoDB, MySQL, and PostgreSQL for managing databases and data
+                storage. Additional Skills: C, C++, Python, and Java for various
+                programming tasks and algorithmic problem-solving. 3D modeling
+                for creating three-dimensional assets and visualizations. UI/UX
+                design for crafting user-friendly and visually appealing
+                interfaces.
+              </p>
             </div>
           </div>
           <div className="collapse collapse-plus bg-base-200 border-t-2 rounded-none">
@@ -38,16 +49,24 @@ function FAQs() {
               Services provided
             </div>
             <div className="collapse-content">
-              <p>hello</p>
+              <p>
+                Website, Mobile Application, Figma Designs, and 3D modelling
+              </p>
             </div>
           </div>
           <div className="collapse collapse-plus bg-base-200 border-t-2 rounded-none">
             <input type="radio" name="my-accordion-3" />
             <div className="collapse-title text-lg md:text-xl font-bold">
-              How i spend my time ?
+              What people think about me ?
             </div>
             <div className="collapse-content">
-              <p>hello</p>
+              <p>
+                My self-learning approach and dedication to continuous
+                improvement demonstrate my commitment to staying up-to-date
+                with the latest industry trends and technologies. This trait is
+                highly regarded in the tech industry, as it shows that i have
+                the ability to adapt and thrive in a rapidly evolving field.
+              </p>
             </div>
           </div>
         </div>
