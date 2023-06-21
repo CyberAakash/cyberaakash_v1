@@ -4,6 +4,8 @@ import App from './App.jsx'
 // import Root from "./routes/root";
 import About from "./routes/about";
 import Project from "./routes/project";
+import Social from "./routes/social";
+
 
 import ErrorPage from "./404";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
@@ -28,6 +30,10 @@ const router = createBrowserRouter([
   {
     path: "project",
     element: <Project />,
+  },
+  {
+    path: "social",
+    element: <Social />,
   },
 ]);
 
