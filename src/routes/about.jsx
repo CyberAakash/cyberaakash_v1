@@ -12,6 +12,8 @@ import GoToTop from "../components/GoToTop";
 import AboutPage from "../components/AboutPage";
 import Profile from "../components/Profile";
 import Marque from "../components/Marque";
+import Cursor from "../components/Cursor";
+
 
 
 
@@ -25,6 +27,7 @@ function about() {
         {/* <Bar /> */}
         <GoToTop />
         <main className="w-screen mt-0 pt-0 relative z-10 flex flex-col gap-0 items-center justify-center min-h-fit">
+          <Cursor />
           {/* <Banner />
           <AboutMe />
           <FAQs /> */}

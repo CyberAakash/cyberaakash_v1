@@ -2,7 +2,7 @@
 width: 30px;
 height: 30px;
 border: 1px solid rgb(255, 255, 255);
-background-color: rgba(251, 251, 251, 0.2);
+/* background-color: rgba(251, 251, 251, 0.2); */
 border-radius: 50%;
 position: absolute;
 pointer-events: none;
@@ -12,7 +12,9 @@ content: "";
 width: 50px;
 height: 50px;
 position: absolute;
-border: 2px solid rgb(160, 255, 18);
+border: 2px solid rgb(0, 255, 4);
+background-color: transparent;
+backdrop-filter: blur(15px);
 border-radius: 50%;
 opacity: .5;
 top: -8px;

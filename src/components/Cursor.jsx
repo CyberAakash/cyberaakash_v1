@@ -25,7 +25,7 @@ function Cursor() {
       });
     }, []);
   return (
-    <div className="cursor backdrop-blur-md" ref={cursorRef}>
+    <div className="cursor bg-white mix-blend-difference z-40" ref={cursorRef}>
       {/* <CursorArrowRaysIcon className="w-6 h-6 text-white mix-blend-difference" /> */}
     </div>
   );

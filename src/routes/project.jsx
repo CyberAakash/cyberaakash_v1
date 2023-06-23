@@ -10,6 +10,8 @@ import Footer from "../components/Footer";
 // import FAQs from "../components/FAQs";
 import GoToTop from "../components/GoToTop";
 import ScrollProject from "../components/ScrollProject";
+import Cursor from "../components/Cursor";
+
 
 
 function project() {
@@ -21,6 +23,7 @@ function project() {
         {/* <Bar /> */}
         <GoToTop />
         <main className="w-screen mt-0 pt-0 relative z-10 flex flex-col gap-0 items-center justify-center min-h-fit">
+          <Cursor />
           {/* <Banner />
           <AboutMe />
           <FAQs /> */}
