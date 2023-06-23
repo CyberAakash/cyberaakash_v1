@@ -9,31 +9,31 @@ function Footer() {
       bg-white text-black w-screen h-fit overflow-x-hidden font-serif"
       >
         <footer className="footer justify-center sm:justify-evenly">
-          <div className="w-full flex-col text-center flex items-center sm:items-start justify-center">
+          <div className="w-full flex-col text-xs text-center flex items-center sm:items-start justify-center">
             <span className="footer-title">Services</span>
-            <a className="link link-hover">Branding</a>
-            <a className="link link-hover">Design</a>
-            <a className="link link-hover">Marketing</a>
+            <a className="link link-hover">Web Development</a>
+            <a className="link link-hover">App Development</a>
+            <a className="link link-hover">UI/UX Design</a>
             <a className="link link-hover">Advertisement</a>
           </div>
-          <div className="w-full flex-col text-center flex items-center sm:items-start justify-center">
-            <span className="footer-title">Company</span>
+          <div className="w-full flex-col text-xs text-center flex items-center sm:items-start justify-center">
+            <span className="footer-title">What Else ?</span>
             <a className="link link-hover">About us</a>
             <a className="link link-hover">Contact</a>
-            <a className="link link-hover">Jobs</a>
-            <a className="link link-hover">Press kit</a>
+            <a className="link link-hover">Social</a>
+            <a className="link link-hover">Testimonials</a>
           </div>
-          <div className="w-full flex-col text-center flex items-center sm:items-start justify-center">
+          {/* <div className="w-full flex-col text-center flex items-center sm:items-start justify-center">
             <span className="footer-title">Legal</span>
             <a className="link link-hover">Terms of use</a>
             <a className="link link-hover">Privacy policy</a>
             <a className="link link-hover">Cookie policy</a>
-          </div>
+          </div> */}
           <div className="w-full flex-col text-center flex items-center sm:items-start justify-center">
-            <span className="footer-title">Newsletter</span>
+            <span className="footer-title">How to reach me ? </span>
             <div className="form-control w-80">
               <label className="label">
-                <span className="label-text">Enter your email address</span>
+                <span className="label-text ">Enter your email address</span>
               </label>
               <div className="relative">
                 <input
@@ -42,7 +42,7 @@ function Footer() {
                   className="input input-bordered w-full pr-16"
                 />
                 <button className="btn btn-primary absolute top-0 right-0 rounded-l-none">
-                  Subscribe
+                  Contact Me
                 </button>
               </div>
             </div>

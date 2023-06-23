@@ -10,6 +10,7 @@ import AboutMe from './components/AboutMe';
 import FAQs from './components/FAQs';
 import GoToTop from './components/GoToTop';
 import Marque from './components/Marque';
+import Cursor from './components/Cursor';
 
 
 // import HomePage from "./components/AboutPage";
@@ -25,6 +26,7 @@ function App() {
         <Bar />
 
         <main className="w-screen relative z-10 flex flex-col gap-0 items-center justify-center min-h-screen">
+          <Cursor />
           <Banner />
           <AboutMe />
           <FAQs />

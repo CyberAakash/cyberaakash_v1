@@ -1,13 +1,18 @@
 import "./ScrollProject.css";
 import Marquee from "react-fast-marquee";
+import { ArrowTopRightOnSquareIcon } from "@heroicons/react/24/solid";
+
 
 function ScrollProject() {
   return (
     <>
       <div className="relative z-10 pt-36  flex flex-col gap-20  max-h-fit w-screen items-center justify-center m-0 p-0">
         <div className="flex flex-col gap-6 items-center justify-center w-full">
-          <h1 className="text-2xl sm:text-3xl font-ailerons">
-            Instagram Clone
+          <h1 className="text-2xl sm:text-3xl font-ailerons flex items-center justify-center gap-3">
+            Instagram Clone{" "}
+            <a href="">
+              <ArrowTopRightOnSquareIcon className="w-6 h-6 text-blue-500/90 cursor-pointer" />
+            </a>
           </h1>
           <p className="text-xs sm:text-sm font-sans max-w-sm sm:max-w-lg md:max-w-3xl text-center">
             Cillum ullamco nisi sit officia laborum nostrud Lorem cillum
@@ -44,7 +49,12 @@ function ScrollProject() {
         </div>
         <hr className="text-white/10 w-full h-1" />
         <div className="flex flex-col gap-6 items-center justify-center w-full">
-          <h1 className="text-2xl sm:text-3xl font-ailerons">Amazon Clone</h1>
+          <h1 className="text-2xl sm:text-3xl font-ailerons flex items-center justify-center gap-3">
+            Amazon Clone{" "}
+            <a href="">
+              <ArrowTopRightOnSquareIcon className="w-6 h-6 text-blue-500/90 cursor-pointer" />
+            </a>
+          </h1>
           <p className="text-xs sm:text-sm font-sans max-w-sm sm:max-w-lg md:max-w-3xl text-center">
             Cillum ullamco nisi sit officia laborum nostrud Lorem cillum
             exercitation elit minim eiusmod. Aliquip do velit enim excepteur
@@ -80,8 +90,11 @@ function ScrollProject() {
         </div>
         <hr className="text-white/10 w-full h-1" />
         <div className="flex flex-col gap-6 items-center justify-center w-full">
-          <h1 className="text-2xl sm:text-3xl font-ailerons">
-            Online E-Book Store
+          <h1 className="text-2xl sm:text-3xl font-ailerons flex items-center justify-center gap-3">
+            Online E-Book Store{" "}
+            <a href="">
+              <ArrowTopRightOnSquareIcon className="w-6 h-6 text-blue-500/90 cursor-pointer" />
+            </a>
           </h1>
           <p className="text-xs sm:text-sm font-sans max-w-sm sm:max-w-lg md:max-w-3xl text-center">
             Cillum ullamco nisi sit officia laborum nostrud Lorem cillum
@@ -118,7 +131,12 @@ function ScrollProject() {
         </div>
         <hr className="text-white/10 w-full h-1" />
         <div className="flex flex-col gap-6 items-center justify-center w-full">
-          <h1 className="text-2xl sm:text-3xl font-ailerons">My Portfolio</h1>
+          <h1 className="text-2xl sm:text-3xl font-ailerons flex items-center justify-center gap-3">
+            My Portfolio{" "}
+            <a href="">
+              <ArrowTopRightOnSquareIcon className="w-6 h-6 text-blue-500/90 cursor-pointer" />
+            </a>
+          </h1>
           <p className="text-xs sm:text-sm font-sans max-w-sm sm:max-w-lg md:max-w-3xl text-center">
             Cillum ullamco nisi sit officia laborum nostrud Lorem cillum
             exercitation elit minim eiusmod. Aliquip do velit enim excepteur
@@ -154,8 +172,11 @@ function ScrollProject() {
         </div>
         <hr className="text-white/10 w-full h-1" />
         <div className="flex flex-col gap-6 items-center justify-center w-full">
-          <h1 className="text-2xl sm:text-3xl font-ailerons">
-            Online Engine oil system
+          <h1 className="text-2xl sm:text-3xl font-ailerons flex items-center justify-center gap-3">
+            Online Engine oil system{"  "}
+            <a href="">
+              <ArrowTopRightOnSquareIcon className="w-6 h-6 text-blue-500/90 cursor-pointer" />
+            </a>
           </h1>
           <p className="text-xs sm:text-sm font-sans max-w-sm sm:max-w-lg md:max-w-3xl text-center">
             Cillum ullamco nisi sit officia laborum nostrud Lorem cillum
