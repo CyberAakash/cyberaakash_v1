@@ -1,6 +1,3 @@
-Sure, here is a README.md file for your GitHub project:
-
-
 # My Portfolio
 
 My Portfolio is a website that I created to showcase my skills and talents. I am a self-learner and I am constantly improving my skills in full stack development. The website is built using Next.js, Tailwind, Firebase, Emails, and Framer Motion.
@@ -41,6 +38,3 @@ Contributions are welcome! Please open an issue or submit a pull request if you 
 ## License
 
 My Portfolio is licensed under the MIT License.
-
-
-I hope this is helpful!
