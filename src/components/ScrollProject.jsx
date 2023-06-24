@@ -10,7 +10,7 @@ function ScrollProject() {
         <div className="flex flex-col gap-6 items-center justify-center w-full">
           <h1 className="text-2xl sm:text-3xl font-ailerons flex items-center justify-center gap-3">
             Instagram Clone{" "}
-            <a href="">
+            <a href="https://insta-next-new.vercel.app/" target="__blank">
               <ArrowTopRightOnSquareIcon className="w-6 h-6 text-blue-500/90 cursor-pointer" />
             </a>
           </h1>
@@ -51,7 +51,7 @@ function ScrollProject() {
         <div className="flex flex-col gap-6 items-center justify-center w-full">
           <h1 className="text-2xl sm:text-3xl font-ailerons flex items-center justify-center gap-3">
             Amazon Clone{" "}
-            <a href="">
+            <a href="https://amazon-cyber.vercel.app/" target="__blank">
               <ArrowTopRightOnSquareIcon className="w-6 h-6 text-blue-500/90 cursor-pointer" />
             </a>
           </h1>
@@ -92,7 +92,7 @@ function ScrollProject() {
         <div className="flex flex-col gap-6 items-center justify-center w-full">
           <h1 className="text-2xl sm:text-3xl font-ailerons flex items-center justify-center gap-3">
             Online E-Book Store{" "}
-            <a href="">
+            <a href="" target="__blank">
               <ArrowTopRightOnSquareIcon className="w-6 h-6 text-blue-500/90 cursor-pointer" />
             </a>
           </h1>
@@ -133,7 +133,7 @@ function ScrollProject() {
         <div className="flex flex-col gap-6 items-center justify-center w-full">
           <h1 className="text-2xl sm:text-3xl font-ailerons flex items-center justify-center gap-3">
             My Portfolio{" "}
-            <a href="">
+            <a href="https://cyberaakash.vercel.app/" target="__blank">
               <ArrowTopRightOnSquareIcon className="w-6 h-6 text-blue-500/90 cursor-pointer" />
             </a>
           </h1>
@@ -174,7 +174,7 @@ function ScrollProject() {
         <div className="flex flex-col gap-6 items-center justify-center w-full">
           <h1 className="text-2xl sm:text-3xl font-ailerons flex items-center justify-center gap-3">
             Online Engine oil system{"  "}
-            <a href="">
+            <a href="https://sma-beta.vercel.app/" target="__blank">
               <ArrowTopRightOnSquareIcon className="w-6 h-6 text-blue-500/90 cursor-pointer" />
             </a>
           </h1>
@@ -220,83 +220,64 @@ function ScrollProject() {
 export default ScrollProject;
 
 const instaProjects = [
-  { id: 1, imgUrl: "/images/FBW1.png" },
-  { id: 2, imgUrl: "/images/FBW2.png" },
-  { id: 3, imgUrl: "/images/FBW3.png" },
-  { id: 4, imgUrl: "/images/FBW4.png" },
-  { id: 5, imgUrl: "/images/FBW5.png" },
-  { id: 6, imgUrl: "/images/FB6.png" },
-  { id: 7, imgUrl: "/images/FB6.png" },
-  { id: 8, imgUrl: "/images/FB7.png" },
-  { id: 9, imgUrl: "/images/FB8.png" },
-  { id: 10, imgUrl: "/images/FBW1.png" },
-  { id: 11, imgUrl: "/images/FBW1.png" },
-  { id: 12, imgUrl: "/images/FBW2.png" },
-  { id: 13, imgUrl: "/images/FBW1.png" },
+  { id: 1, imgUrl: "/phone/i1.jpg" },
+  { id: 2, imgUrl: "/phone/i2.jpg" },
+  { id: 3, imgUrl: "/phone/i3.jpg" },
+  { id: 4, imgUrl: "/phone/i2.jpg" },
+  { id: 5, imgUrl: "/phone/i5.jpg" },
+  { id: 6, imgUrl: "/phone/i6.jpg" },
+  { id: 7, imgUrl: "/phone/i7.jpg" },
+  { id: 8, imgUrl: "/phone/i8.jpg" },
+  { id: 9, imgUrl: "/phone/i9.jpg" },
+  { id: 10, imgUrl: "/phone/i10.jpg" },
+  { id: 11, imgUrl: "/phone/i11.jpg" },
 ];
 
 const amazonProjects = [
-  { id: 1, imgUrl: "/images/FBW1.png" },
-  { id: 2, imgUrl: "/images/FBW2.png" },
-  { id: 3, imgUrl: "/images/FBW3.png" },
-  { id: 4, imgUrl: "/images/FBW4.png" },
-  { id: 5, imgUrl: "/images/FBW5.png" },
-  { id: 6, imgUrl: "/images/FB6.png" },
-  { id: 7, imgUrl: "/images/FB6.png" },
-  { id: 8, imgUrl: "/images/FB7.png" },
-  { id: 9, imgUrl: "/images/FB8.png" },
-  { id: 10, imgUrl: "/images/FBW1.png" },
-  { id: 11, imgUrl: "/images/FBW1.png" },
-  { id: 12, imgUrl: "/images/FBW2.png" },
-  { id: 13, imgUrl: "/images/FBW1.png" },
+  { id: 1, imgUrl: "/phone/a1.jpg" },
+  { id: 2, imgUrl: "/phone/a2.jpg" },
+  { id: 3, imgUrl: "/phone/a3.jpg" },
+  { id: 4, imgUrl: "/phone/a4.jpg" },
+  { id: 5, imgUrl: "/phone/a5.jpg" },
+  { id: 6, imgUrl: "/phone/a1.jpg" },
+  { id: 7, imgUrl: "/phone/a2.jpg" },
+  { id: 8, imgUrl: "/phone/a3.jpg" },
+  { id: 9, imgUrl: "/phone/a4.jpg" },
+  { id: 10, imgUrl: "/phone/a5.jpg" },
 ];
 
 const ebookProjects = [
   { id: 1, imgUrl: "/images/FBW1.png" },
-  { id: 2, imgUrl: "/images/FBW2.png" },
-  { id: 3, imgUrl: "/images/FBW3.png" },
-  { id: 4, imgUrl: "/images/FBW4.png" },
-  { id: 5, imgUrl: "/images/FBW5.png" },
-  { id: 6, imgUrl: "/images/FB6.png" },
-  { id: 7, imgUrl: "/images/FB6.png" },
-  { id: 8, imgUrl: "/images/FB7.png" },
-  { id: 9, imgUrl: "/images/FB8.png" },
-  { id: 10, imgUrl: "/images/FBW1.png" },
-  { id: 11, imgUrl: "/images/FBW1.png" },
-  { id: 12, imgUrl: "/images/FBW2.png" },
-  { id: 13, imgUrl: "/images/FBW1.png" },
+  { id: 2, imgUrl: "/images/FBW1.png" },
+  { id: 3, imgUrl: "/images/FBW1.png" },
+  { id: 4, imgUrl: "/images/FBW1.png" },
+  { id: 5, imgUrl: "/images/FBW1.png" },
+  { id: 6, imgUrl: "/images/FBW1.png" },
+  { id: 7, imgUrl: "/images/FBW1.png" },
+  { id: 8, imgUrl: "/images/FBW1.png" },
+  { id: 9, imgUrl: "/images/FBW1.png" },
 ];
 
 const portfolioProjects = [
-  { id: 1, imgUrl: "/images/FBW1.png" },
-  { id: 2, imgUrl: "/images/FBW2.png" },
-  { id: 3, imgUrl: "/images/FBW3.png" },
-  { id: 4, imgUrl: "/images/FBW4.png" },
-  { id: 5, imgUrl: "/images/FBW5.png" },
-  { id: 6, imgUrl: "/images/FB6.png" },
-  { id: 7, imgUrl: "/images/FB6.png" },
-  { id: 8, imgUrl: "/images/FB7.png" },
-  { id: 9, imgUrl: "/images/FB8.png" },
-  { id: 10, imgUrl: "/images/FBW1.png" },
-  { id: 11, imgUrl: "/images/FBW1.png" },
-  { id: 12, imgUrl: "/images/FBW2.png" },
-  { id: 13, imgUrl: "/images/FBW1.png" },
+  { id: 1, imgUrl: "/phone/p1.jpg" },
+  { id: 2, imgUrl: "/phone/p2.jpg" },
+  { id: 3, imgUrl: "/phone/p3.jpg" },
+  { id: 4, imgUrl: "/phone/p4.jpg" },
+  { id: 5, imgUrl: "/phone/p5.jpg" },
+  { id: 6, imgUrl: "/phone/p6.jpg" },
+  { id: 7, imgUrl: "/phone/p7.jpg" },
+  { id: 8, imgUrl: "/phone/p8.jpg" },
 ];
 
 const oilProjects = [
-  { id: 1, imgUrl: "/images/FBW1.png" },
-  { id: 2, imgUrl: "/images/FBW2.png" },
-  { id: 3, imgUrl: "/images/FBW3.png" },
-  { id: 4, imgUrl: "/images/FBW4.png" },
-  { id: 5, imgUrl: "/images/FBW5.png" },
-  { id: 6, imgUrl: "/images/FB6.png" },
-  { id: 7, imgUrl: "/images/FB6.png" },
-  { id: 8, imgUrl: "/images/FB7.png" },
-  { id: 9, imgUrl: "/images/FB8.png" },
-  { id: 10, imgUrl: "/images/FBW1.png" },
-  { id: 11, imgUrl: "/images/FBW1.png" },
-  { id: 12, imgUrl: "/images/FBW2.png" },
-  { id: 13, imgUrl: "/images/FBW1.png" },
+  { id: 1, imgUrl: "/phone/s1.jpg" },
+  { id: 2, imgUrl: "/phone/s2.jpg" },
+  { id: 3, imgUrl: "/phone/s3.jpg" },
+  { id: 4, imgUrl: "/phone/s4.jpg" },
+  { id: 5, imgUrl: "/phone/s5.jpg" },
+  { id: 6, imgUrl: "/phone/s6.jpg" },
+  { id: 7, imgUrl: "/phone/s7.jpg" },
+  { id: 8, imgUrl: "/phone/s8.jpg" },
 ];
 
 // Splide JS

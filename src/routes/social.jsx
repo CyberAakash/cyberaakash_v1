@@ -10,6 +10,7 @@ import Footer from "../components/Footer";
 // import FAQs from "../components/FAQs";
 import GoToTop from "../components/GoToTop";
 import Cursor from "../components/Cursor";
+import ShowMyProfile from "../components/ShowMyProfile";
 // import ScrollProject from "../components/ScrollProject";
 
 function social() {
@@ -25,6 +26,7 @@ function social() {
           {/* <Banner />
           <AboutMe />
           <FAQs /> */}
+          <ShowMyProfile />
           {/* <ScrollProject /> */}
         </main>
         <div className="mt-14"></div>

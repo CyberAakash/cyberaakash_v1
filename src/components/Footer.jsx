@@ -1,7 +1,32 @@
 import "./Footer.css";
+import { useRef, useState } from "react";
+import emailjs from "@emailjs/browser";
 import { HeartIcon } from "@heroicons/react/24/solid";
 
 function Footer() {
+  const form = useRef();
+  const [inputValue, setInputValue] = useState("");
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        "service_cgrl7y9",
+        "template_vr531k8",
+        form.current,
+        "HLcCUqg0MXkmyZI91"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+          setInputValue("");
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+  };
   return (
     <>
       <div
@@ -31,21 +56,26 @@ function Footer() {
           </div> */}
           <div className="w-full flex-col text-center flex items-center sm:items-start justify-center">
             <span className="footer-title">How to reach me ? </span>
-            <div className="form-control w-80">
+            <form className="form-control w-80" ref={form} onSubmit={sendEmail}>
               <label className="label">
                 <span className="label-text ">Enter your email address</span>
               </label>
               <div className="relative">
                 <input
-                  type="text"
+                  type="email"
+                  name="user_email"
                   placeholder="username@site.com"
+                  value={inputValue}
+                  onChange={(e) => setInputValue(e.target.value)}
                   className="input input-bordered w-full pr-16"
                 />
-                <button className="btn btn-primary absolute top-0 right-0 rounded-l-none">
-                  Contact Me
-                </button>
+                <input
+                  type="submit"
+                  value="Contact Me"
+                  className="btn btn-primary absolute top-0 right-0 rounded-l-none"
+                />
               </div>
-            </div>
+            </form>
           </div>
         </footer>
         <footer className="footer px-5 py-8 border-t border-base-300 flex flex-col sm:flex-row items-center justify-between">
