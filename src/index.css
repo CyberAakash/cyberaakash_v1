@@ -7,6 +7,10 @@
   src: url('./assets/fonts/Robecha-Daniera-Regular.ttf')
 }
 
+* {
+  cursor: none;
+}
+
 @layer base {
    /* Scroll */
   .scroll-hidden::-webkit-scrollbar{

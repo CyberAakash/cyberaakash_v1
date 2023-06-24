@@ -7,9 +7,19 @@ function Cursor() {
 
     const cursorRef = useRef(null);
     useEffect(() => {
-      if (cursorRef.current == null || cursorRef == null) return;
+      if (cursorRef.current == null || cursorRef == null) {
+          cursorRef.current.setAttribute(
+            "style",
+            "top: -8px; left: -8px;"
+          );
+        }
       document.addEventListener("mousemove", (e) => {
-        if (cursorRef.current == null) return;
+        if (cursorRef.current == null) {
+          cursorRef.current.setAttribute(
+            "style",
+            "top: -8px; left: -8px;"
+          );
+        }
         cursorRef.current.setAttribute(
           "style",
           "top: " + e.pageY + "px; left: " + e.pageX + "px;"
@@ -25,8 +35,8 @@ function Cursor() {
       });
     }, []);
   return (
-    <div className="cursor bg-white mix-blend-difference z-40" ref={cursorRef}>
-      {/* <CursorArrowRaysIcon className="w-6 h-6 text-white mix-blend-difference" /> */}
+    <div className="cursor z-40" ref={cursorRef}>
+      {/* <CursorArrowRaysIcon ref={cursorRef} className="cursor z-40 w-12 h-12 bg-transparent bg-clip-text text-white mix-blend-difference" /> */}
     </div>
   );
 }
