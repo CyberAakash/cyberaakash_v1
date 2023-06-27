@@ -35,7 +35,7 @@ function Cursor() {
       });
     }, []);
   return (
-    <div className="cursor z-40" ref={cursorRef}>
+    <div className="cursor z-100" ref={cursorRef}>
       {/* <CursorArrowRaysIcon ref={cursorRef} className="cursor z-40 w-12 h-12 bg-transparent bg-clip-text text-white mix-blend-difference" /> */}
     </div>
   );
