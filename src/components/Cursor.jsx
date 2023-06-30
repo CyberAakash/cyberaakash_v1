@@ -4,41 +4,75 @@ import {useRef, useEffect} from "react"
 // import {CursorArrowRaysIcon} from "@heroicons/react/24/solid"
 
 function Cursor() {
+  const cursorRef = useRef(null);
+  const isScrollingRef = useRef(false);
+  const isCursorMovingRef = useRef(false);
 
-    const cursorRef = useRef(null);
-    useEffect(() => {
-      if (cursorRef.current == null || cursorRef == null) {
-          cursorRef.current.setAttribute(
-            "style",
-            "top: -8px; left: -8px;"
-          );
-        }
-      document.addEventListener("mousemove", (e) => {
-        if (cursorRef.current == null) {
-          cursorRef.current.setAttribute(
-            "style",
-            "top: -8px; left: -8px;"
-          );
-        }
-        cursorRef.current.setAttribute(
-          "style",
-          "top: " + e.pageY + "px; left: " + e.pageX + "px;"
-        );
-      });
-      document.addEventListener("click", () => {
-        if (cursorRef.current == null) return;
-        cursorRef.current.classList.add("expand");
-        setTimeout(() => {
-          if (cursorRef.current == null) return;
-          cursorRef.current.classList.remove("expand");
-        }, 500);
-      });
-    }, []);
-  return (
-    <div className="cursor z-100" ref={cursorRef}>
-      {/* <CursorArrowRaysIcon ref={cursorRef} className="cursor z-40 w-12 h-12 bg-transparent bg-clip-text text-white mix-blend-difference" /> */}
-    </div>
-  );
+  useEffect(() => {
+    function updateCursorPosition(e) {
+      if (!cursorRef.current) return;
+
+      cursorRef.current.style.top = e.pageY + "px";
+      cursorRef.current.style.left = e.pageX + "px";
+      isCursorMovingRef.current = true;
+
+      if (cursorRef.current.style.display === "none") {
+        cursorRef.current.style.display = "block";
+      }
+    }
+
+    function handleScroll() {
+      if (!cursorRef.current) return;
+
+      cursorRef.current.style.display = "none";
+      isScrollingRef.current = true;
+      isCursorMovingRef.current = false;
+    }
+
+    function handleMouseEnter() {
+      if (!cursorRef.current) return;
+
+      if (isScrollingRef.current || !isCursorMovingRef.current) {
+        cursorRef.current.style.display = "block";
+        isScrollingRef.current = false;
+      }
+    }
+
+    function handleMouseLeave() {
+      if (!cursorRef.current) return;
+
+      if (!isCursorMovingRef.current) {
+        cursorRef.current.style.display = "none";
+      }
+    }
+
+    document.addEventListener("mousemove", updateCursorPosition);
+    document.addEventListener("mouseenter", handleMouseEnter);
+    document.addEventListener("mouseleave", handleMouseLeave);
+    document.addEventListener("scroll", handleScroll);
+
+    document.addEventListener("click", () => {
+      if (!cursorRef.current) return;
+
+      cursorRef.current.classList.add("expand");
+      setTimeout(() => {
+        if (!cursorRef.current) return;
+        cursorRef.current.classList.remove("expand");
+      }, 500);
+    });
+
+    return () => {
+      document.removeEventListener("mousemove", updateCursorPosition);
+      document.removeEventListener("mouseenter", handleMouseEnter);
+      document.removeEventListener("mouseleave", handleMouseLeave);
+      document.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
+  return <div className="cursor z-100" ref={cursorRef}></div>;
 }
 
-export default Cursor
+export default Cursor;
+
+
+
