@@ -3,7 +3,7 @@ import { ArrowDownTrayIcon } from "@heroicons/react/24/solid";
 function FAQs() {
   const handleDownload = () => {
     // Replace 'path_to_your_pdf.pdf' with the actual path to your PDF file
-    const fileUrl = "resume_v2.pdf";
+    const fileUrl = "resume_v3.pdf";
     window.open(fileUrl, "_blank");
   };
   return (

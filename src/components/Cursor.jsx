@@ -19,6 +19,13 @@ function Cursor() {
       if (cursorRef.current.style.display === "none") {
         cursorRef.current.style.display = "block";
       }
+
+      clearTimeout(cursorTimeout);
+      cursorTimeout = setTimeout(() => {
+        if (isCursorMovingRef.current === false) {
+          cursorRef.current.style.display = "none";
+        }
+      }, 500);
     }
 
     function handleScroll() {
@@ -46,6 +53,7 @@ function Cursor() {
       }
     }
 
+    let cursorTimeout;
     document.addEventListener("mousemove", updateCursorPosition);
     document.addEventListener("mouseenter", handleMouseEnter);
     document.addEventListener("mouseleave", handleMouseLeave);
@@ -62,6 +70,7 @@ function Cursor() {
     });
 
     return () => {
+      clearTimeout(cursorTimeout);
       document.removeEventListener("mousemove", updateCursorPosition);
       document.removeEventListener("mouseenter", handleMouseEnter);
       document.removeEventListener("mouseleave", handleMouseLeave);
@@ -69,10 +78,12 @@ function Cursor() {
     };
   }, []);
 
-  return <div className="cursor z-100" ref={cursorRef}></div>;
+  return <div className="cursor z-100 text-white bg-white mix-blend-difference" ref={cursorRef}></div>;
 }
 
 export default Cursor;
+
+
 
 
 
