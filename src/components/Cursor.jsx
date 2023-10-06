@@ -78,7 +78,15 @@ function Cursor() {
     };
   }, []);
 
-  return <div className="cursor z-100 text-white bg-white mix-blend-difference" ref={cursorRef}></div>;
+  // return <div className="cursor z-100 text-white bg-white mix-blend-difference" ref={cursorRef}></div>;
+  return (
+    <img
+      src="/public/spider.png"
+      alt=""
+      className="absolute w-20 h-20 z-10 bg-transparent mix-blend-difference bg-blend-difference -top-2 -left-2"
+      ref={cursorRef}
+    />
+  );
 }
 
 export default Cursor;
